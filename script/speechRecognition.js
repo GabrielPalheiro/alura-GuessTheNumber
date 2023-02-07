@@ -12,7 +12,6 @@ function onSpeak(e) {
   guess = e.results[0][0].transcript.replace(".", "");
   yourGuessOnScreen(guess);
   checksValidValue(guess);
-  console.log(e);
 }
 
 function yourGuessOnScreen(guess) {

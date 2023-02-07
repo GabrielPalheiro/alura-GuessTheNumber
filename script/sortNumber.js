@@ -7,8 +7,6 @@ function sortNumber() {
   //com está sintaxe faz sortear vezes o maior valor mais 1 para poder retornar o maior valor
 }
 
-console.log("O número secreto é: ", secretNumber);
-
 const elementLowerValue = document.getElementById("menor-valor");
 elementLowerValue.innerHTML = lowerValue;
 
